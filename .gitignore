@@ -1,3 +1,11 @@
 __pycache__/
 .pyc
 vscode/
+test/test_pep257.py
+ros2_course/__init__.py
+ros2_course/hello.py
+ros2_course/psm_grasp.py
+ros2_course/psm_grasp2.py
+ros2_course/turtlesim_controller.py
+test/test_copyright.py
+test/test_flake8.py
