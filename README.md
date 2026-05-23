@@ -8,8 +8,8 @@
 This project implements a dynamic, closed-loop kinematic control system for the simulated Patient Side Manipulator (PSM1) of the da Vinci Research Kit (dVRK). Utilizing ROS 2, the system introduces an interactive 6-DOF visualization marker that acts as a "tissue" target. The robot is programmed to autonomously track this user-manipulated target, perform a circumferential tissue excision, and extract the target by dynamically updating its Cartesian pose and jaw state.
 
 ## ⚙️ System Requirements & Dependencies
-* **OS:** Ubuntu 22.04 or newer (WSL2 supported, see clock synchronization notes in code)
-* **Middleware:** ROS 2 (Humble)
+* **OS:** [Ubuntu 22.04 Jammy](https://releases.ubuntu.com/jammy/) or newer (WSL2 supported, see clock synchronization notes in code)
+* **Middleware:** [ROS 2 Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) or newer
 * **Robot Framework:** [dVRK 2.4.0 ROS 2 packages](https://dvrk.readthedocs.io/main/pages/software/compilation/ros2.html) (`dvrk_robot`, `dvrk_model`, `dvrk_config`)
 * **Python Dependencies:**
    * `numpy`: For vector mathematics and positional offsets.
