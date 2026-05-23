@@ -56,7 +56,7 @@ After cloning the repository into your ROS 2 workspace, you have two options to 
 ### **Option A (Automated):** 
 Use the provided bash script to build, launch the dVRK system, and open RViz then follow instructions.
 ```bash
-./src/ros2_course/start_dvrk.sh
+./ros2_ws/src/ros2_course/start_dvrk.sh
 ```
 
 ### **Option B (Standard):**
