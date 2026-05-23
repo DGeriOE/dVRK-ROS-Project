@@ -15,7 +15,7 @@ sleep 2
 
 # 2. State Publishers és RViz
 ros2 launch dvrk_model arm_state_publishers.launch.py arm:=PSM1 generation:=Classic suj:=false &
-ros2 run rviz2 rviz2 -d ~/dvrk2_ws/install/dvrk_model/share/dvrk_model/rviz/PSM1.rviz &
+ros2 run rviz2 rviz2 -d ~/dvrk2_ws/install/dvrk_model/share/dvrk_model/rviz/Classic/PSM1.rviz &
 sleep 5
 
 

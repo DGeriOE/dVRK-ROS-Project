@@ -54,7 +54,7 @@ The execute_surgical_cutting_demo function orchestrates a five-stage procedure:
 ## 🚀 Installation & Usage
 After [cloning the repository into your ROS 2 workspace](https://dvrk.readthedocs.io/main/pages/software/compilation/ros2.html#colcon-workspace-clone-and-build), you have two options to get the system up and running:
 ### **Option A (Automated):** 
-Use the provided bash script to build, launch the dVRK system, and open RViz then follow instructions.
+Use the provided bash script to build, launch the dVRK system, open RViz, and follow the instructions in the terminal.
 ```bash
 ./ros2_ws/src/ros2_course/start_dvrk.sh
 ```
@@ -78,6 +78,13 @@ Then in Terminal 2, launch the interactive marker and the autonomous control seq
 source install/setup.bash
 ros2 launch ros2_course dvrk_tasks.launch.py
 ```
+
+## 👁️ RViz Simulation & Interactive Marker Setup
+To visualize and interact with the 6-DOF tissue target in the RViz simulation panel:
+1. In the **Displays** panel on the left side of the RViz window, click the **Add** button at the bottom.
+2. Under the **By display type** tab, select **InteractiveMarkers** and click **OK**.
+3. Expand the newly added **InteractiveMarkers** entry in the Displays list.
+4. Set the **Update Topic** property to `/dvrk_interactive_marker/update` to connect it to the interactive marker server we created.
 
 ## ✅ Grading Rubric Fulfillment
 

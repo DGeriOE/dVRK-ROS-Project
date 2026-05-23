@@ -11,7 +11,7 @@ def generate_launch_description():
     dvrk_model_share = get_package_share_directory('dvrk_model')
     
     json_config_path = os.path.join(dvrk_config_share, 'system', 'system-PSM1_Classic_KIN_SIMULATED.json')
-    rviz_config_path = os.path.join(dvrk_model_share, 'rviz', 'InteractivePSM1.rviz')
+    rviz_config_path = os.path.join(dvrk_model_share, 'rviz', 'Classic/PSM1.rviz')
 
     # 2. dVRK System Node
     dvrk_system_node = Node(
