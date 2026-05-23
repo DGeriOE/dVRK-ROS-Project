@@ -52,7 +52,7 @@ The execute_surgical_cutting_demo function orchestrates a five-stage procedure:
 5. **Extraction:** Moves to a safe coordinate while simultaneously publishing to the forced marker topic to visually drag the cylinder out of the field.
 
 ## 🚀 Installation & Usage
-After cloning the repository into your ROS 2 workspace, you have two options to get the system up and running:
+After [cloning the repository into your ROS 2 workspace](https://dvrk.readthedocs.io/main/pages/software/compilation/ros2.html#colcon-workspace-clone-and-build), you have two options to get the system up and running:
 ### **Option A (Automated):** 
 Use the provided bash script to build, launch the dVRK system, and open RViz then follow instructions.
 ```bash
