@@ -84,7 +84,7 @@ To visualize and interact with the 6-DOF tissue target in the RViz simulation pa
 1. In the **Displays** panel on the left side of the RViz window, click the **Add** button at the bottom.
 2. Under the **By display type** tab, select **InteractiveMarkers** and click **OK**.
 3. Expand the newly added **InteractiveMarkers** entry in the Displays list.
-4. Set the **Update Topic** property to `/dvrk_interactive_marker/update` to connect it to the interactive marker server we created.
+4. Set the **Interactive_Markers_Namespace** property to `/dvrk_interactive_marker/update` to connect it to the interactive marker server we created.
 
 ## ✅ Grading Rubric Fulfillment
 
