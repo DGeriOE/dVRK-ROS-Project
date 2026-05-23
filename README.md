@@ -10,7 +10,7 @@ This project implements a dynamic, closed-loop kinematic control system for the 
 ## ⚙️ System Requirements & Dependencies
 * **OS:** Ubuntu 22.04 or newer (WSL2 supported, see clock synchronization notes in code)
 * **Middleware:** ROS 2 (Humble)
-* **Robot Framework:** dVRK 2.4.0 ROS 2 packages (`dvrk_robot`, `dvrk_model`, `dvrk_config`)
+* **Robot Framework:** [dVRK 2.4.0 ROS 2 packages](https://dvrk.readthedocs.io/main/pages/software/compilation/ros2.html) (`dvrk_robot`, `dvrk_model`, `dvrk_config`)
 * **Python Dependencies:**
    * `numpy`: For vector mathematics and positional offsets.
    * `scipy`: For Spherical Linear Interpolation (SLERP) of quaternions via `scipy.spatial.transform`.
